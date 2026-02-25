@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector("form").addEventListener("submit", function(event) {
 
         // Stores API key in browser local storage
-        browser.storage.local.set({"api_key": document.getElementById("api_key").value});
+        browser.storage.local.set({"api_key": document.getElementById("key_input").value});
 
         // Obtains API key using check function
         checkApiKey();
