@@ -1,0 +1,15 @@
+html,
+body {
+    height: 800px;
+    width: 200px;    
+}
+
+#api_key_form {
+    visibility: hidden;
+}
+
+main {
+    visibility: visible;
+}
+
+
